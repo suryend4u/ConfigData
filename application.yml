@@ -9,24 +9,34 @@ server:
 
 spring:
   profiles: subject
+  application:
+    name: lab4subject
 words: I,You,He,She,It
 
 ---
 spring:
   profiles: verb
+  application:
+    name: lab4verb
 words: ran,knew,had,saw,bought
 
 ---
 spring:
   profiles: article
+  application:
+    name: lab4article
 words: a,the
 
 ---
 spring:
   profiles: adjective
+  application:
+    name: lab4adjective
 words: reasonable,leaky,suspicious,ordinary,unlikely
 
 ---
 spring:
   profiles: noun
+  application:
+    name: lab4noun
 words: boat,book,vote,seat,backpack,partition,groundhog
